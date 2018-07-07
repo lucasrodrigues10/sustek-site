@@ -12,11 +12,11 @@
           integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.16/datatables.min.css"/>
     <link rel="stylesheet" href="../css/main.css">
-    <title>iMob</title>
+    <title>Sustek</title>
 </head>
 <body background="../others/background-2.jpg">
 <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
-    <h5 class="my-0 mr-md-auto font-weight-normal"><a href="home.php"><img src="../others/house.png" id="logo"></a>
+    <h5 class="my-0 mr-md-auto font-weight-normal"><a href="home.php"><img src="../others/world.png" id="logo"></a>
     </h5>
     <nav class="my-2 my-md-0 mr-md-3">
         <a class="p-2 text-dark" href="home.php" id="nav-pagina-inicial">Página Inicial</a>
@@ -25,41 +25,18 @@
 </div>
 
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-    <h1 class="display-4" style="color:white">iMob</h1>
-    <p class="lead" style="color:orange">Sua casa. Seu jeito.</p>
+    <h1 class="display-4" style="color:white">Sustek</h1>
+    <p class="lead" style="color:orange">Mais energia para você.</p>
 </div>
 <div class="container" id="pagina-inicial">
     <div class="card-deck mb-3 text-center">
         <div class="card mb-12 box-shadow">
             <div class="card-header">
-                <h4 class="my-0 font-weight-normal">Pesquisar</h4>
+                <h4 class="my-0 font-weight-normal">Informações</h4>
             </div>
             <div class="card-body">
                 <div class="row">
-                    <div class="col-6">
-                        <div class="input-group mb-3">
-                            <div class="input-group-prepend">
-                                <label class="input-group-text">Qual tipo?</label>
-                            </div>
-                            <select id="tipoimovel"class="custom-select">
-                                <option>Apartamento</option>
-                                <option>Casa</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="input-group mb-3">
-                            <div class="input-group-prepend">
-                                <label class="input-group-text">Cidade</label>
-                            </div>
-                            <select id="cidadeimovel" class="custom-select">
-                                <option>São Bernardo do Campo</option>
-                                <option>São Caetano do Sul</option>
-                                <option>São Paulo</option>
-                            </select>
-                        </div>
-                    </div>
-
+                    <canvas id="mychart" width="1600" height="900"></canvas>
                 </div>
                 <div class="jumbotron bg-warning" id="jb-avan" style="display: none">
                     <div class="row">
@@ -723,6 +700,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
+                <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
                 <h5 class="modal-title" id="exampleModalLabel">Tiago Sanches da Silva</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
@@ -777,6 +755,10 @@
 <script src="../js/buscar_imoveis.js"></script>
 <script src="../js/params.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.16/datatables.min.js"></script>
+
+<!--Chart JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+<script src="/js/grafico.js"></script>
 
 </body>
 </html>
