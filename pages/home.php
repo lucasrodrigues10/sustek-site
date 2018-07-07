@@ -14,14 +14,12 @@
     <link rel="stylesheet" href="../css/main.css">
     <title>iMob</title>
 </head>
-<body background="../others/background.jpg">
+<body background="../others/background-2.jpg">
 <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
     <h5 class="my-0 mr-md-auto font-weight-normal"><a href="home.php"><img src="../others/house.png" id="logo"></a>
     </h5>
     <nav class="my-2 my-md-0 mr-md-3">
         <a class="p-2 text-dark" href="home.php" id="nav-pagina-inicial">Página Inicial</a>
-        <a class="p-2 text-dark" href="#" id="nav-inquilinos">Inquilinos</a>
-        <a class="p-2 text-dark" href="#" id="nav-senhorios">Senhorios</a>
     </nav>
     <button type="button" onclick="location.href = '../index.php';" class="btn btn-outline-primary">Sair</button>
 </div>
@@ -30,17 +28,14 @@
     <h1 class="display-4" style="color:white">iMob</h1>
     <p class="lead" style="color:orange">Sua casa. Seu jeito.</p>
 </div>
-
 <div class="container" id="pagina-inicial">
     <div class="card-deck mb-3 text-center">
-
         <div class="card mb-12 box-shadow">
             <div class="card-header">
                 <h4 class="my-0 font-weight-normal">Pesquisar</h4>
             </div>
             <div class="card-body">
                 <div class="row">
-
                     <div class="col-6">
                         <div class="input-group mb-3">
                             <div class="input-group-prepend">
