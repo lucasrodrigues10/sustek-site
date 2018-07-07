@@ -12,32 +12,45 @@
           integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.16/datatables.min.css"/>
     <link rel="stylesheet" href="../css/main.css">
+
     <title>Sustek</title>
 </head>
 <body background="../others/background-2.jpg">
-<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
-    <h5 class="my-0 mr-md-auto font-weight-normal"><a href="home.php"><img src="../others/world.png" id="logo"></a>
-    </h5>
-    <nav class="my-2 my-md-0 mr-md-3">
-        <a class="p-2 text-dark" href="home.php" id="nav-pagina-inicial">Página Inicial</a>
-    </nav>
-    <button type="button" onclick="location.href = '../index.php';" class="btn btn-outline-primary">Sair</button>
+<div class="bg-white border-bottom box-shadow">
+    <div class="row mx-auto">
+        <div class="col-4 mx-auto">
+            <a href="home.php"><img src="../others/world.png" id="logo"></a>
+        </div>
+        <div class="col-4 mx-auto text-center">
+            <h1 class="display-4" style="color:green">Sustek</h1>
+            <p class="lead" style="color:orange">Mais energia para você.</p>
+        </div>
+        <div class="col-4 mx-auto text-center">
+            <nav>
+                <a class="p-2 text-dark" href="home.php" id="nav-pagina-inicial">Página Inicial</a>
+            </nav>
+            <button type="button" onclick="location.href = '../index.php';" class="btn btn-outline-primary">Sair
+            </button>
+        </div>
+    </div>
 </div>
 
-<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-    <h1 class="display-4" style="color:white">Sustek</h1>
-    <p class="lead" style="color:orange">Mais energia para você.</p>
-</div>
-<div class="container" id="pagina-inicial">
-    <div class="card-deck mb-3 text-center">
+
+<div class="container-fluid" id="pagina-inicial">
+    <div class="card-deck mb-3 text-center my-1">
         <div class="card mb-12 box-shadow">
             <div class="card-header">
-                <h4 class="my-0 font-weight-normal">Informações</h4>
+                <h4 class="my-0 font-weight-normal">Dados</h4>
             </div>
             <div class="card-body">
                 <div class="row">
-                    <canvas id="mychart" width="1600" height="900"></canvas>
+                    <div class="col-8">
+                        <canvas id="myChart" width="400" height="400"></canvas>
+                    </div>
+                    <div class="col-4">
+                    </div>
                 </div>
+
                 <div class="jumbotron bg-warning" id="jb-avan" style="display: none">
                     <div class="row">
                         <div class="col-6">
@@ -108,10 +121,11 @@
                         </button>
                     </div>
                     <div class="p-2 bd-highlight">
-                        <button id="buscaimovel" type="button" class="btn btn-lg  btn-primary" id="btn-buscar">Buscar</button>
+                        <button id="buscaimovel" type="button" class="btn btn-lg  btn-primary" id="btn-buscar">Buscar
+                        </button>
                     </div>
                 </div>
-                <div class="jumbotron" id="jb-res" style="display: none">
+                <div class="jumbotron" id="jb-res" style="">
                     <div class="btn-group btn-group-toggle" data-toggle="buttons">
                         <label class="btn btn-secondary active" id="btn-lista">
                             <input type="radio" name="options" autocomplete="off" checked> Lista
@@ -129,7 +143,7 @@
                                 <th>Valor</th>
                             </tr>
                             </thead>
-                            <tbody id= "anuncios" >
+                            <tbody id="anuncios">
                             <tr id="anuncio1">
                                 <td>Avenida Paulista</td>
                                 <td>
@@ -700,7 +714,10 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+                <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a
+                            href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a
+                            href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0"
+                            target="_blank">CC 3.0 BY</a></div>
                 <h5 class="modal-title" id="exampleModalLabel">Tiago Sanches da Silva</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
@@ -757,8 +774,8 @@
 <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.16/datatables.min.js"></script>
 
 <!--Chart JS-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
-<script src="/js/grafico.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script>
+<script src="../js/grafico.js"></script>
 
 </body>
 </html>
