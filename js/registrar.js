@@ -26,5 +26,4 @@ $('#registrar').click(function(){
 	});
 	
 	
-	console.log(dados);
 })

@@ -1,1 +1,0 @@
-var host = 'imobiliaria'; //host local. trocar para o IP da vm caso seja necessario

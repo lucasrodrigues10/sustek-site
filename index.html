@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sustek</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Menu -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- Datatables -->
+    <link href='https://cdn.datatables.net/1.10.18/css/dataTables.bootstrap4.min.css' rel='stylesheet' type='text/css'>
+    <link href='https://cdn.datatables.net/buttons/1.5.2/css/buttons.dataTables.min.css' rel='stylesheet' type='text/css'>
+
+    <!-- Contato -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='css/contact.css' rel='stylesheet' type='text/css'>
+
+    <!-- Fontes -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link href='css/text.css' rel='stylesheet' type='text/css'>
+
+
+</head>
+
+<body id="page-top">
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Sustek</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#dados">Dados</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#produtos">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#contato">Contato</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" onclick="location.href = 'login.html';"
+                       href="#login">Login</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="bg-primary text-white">
+    <div class="container text-center">
+        <h1>Bem vindo à Sustek</h1>
+        <p class="lead"></p>
+    </div>
+</header>
+
+<section id="sobre">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 mx-auto">
+                <div class="row">
+                    <div class="col-4">
+                        <img class="img-fluid" src="images/moeda.jpg" alt="">
+                        <div class="caption font-weight-bold text-center mt-3">
+                            <p>Economize na conta de luz</p>
+                        </div>
+                        <div class="text-center font-roboto small text-center">
+                            Saiba quais equipamentos consomem mais energia
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid" src="images/sustentavel.jpg" alt="">
+                        <div class="caption font-weight-bold text-center mt-3">
+                            <p>Ajude ao meio ambiente</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid" src="images/relogio.jpg" alt="">
+                        <div class="caption font-weight-bold text-center mt-3">
+                            <p>Antecipe seus gastos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="dados" class="bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 mx-auto">
+                <div class="row">
+                    <div class="col">
+                        <canvas id="pie-chart" width="400" height="400"></canvas>
+                    </div>
+                    <div class="col">
+                        <canvas id="line-chart" width="400" height="400"></canvas>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="text-center mx-auto mt-4">
+                        <table id="table_id"
+                               class="display order-column	dt-head-center	 table nowrap table-striped table-bordered mx-auto cell-border"
+                               cellspacing="0" style="width: 100%">
+                            <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Sensor</th>
+                                <th>Consumo</th>
+                                <th>Data</th>
+                            </tr>
+                            </thead>
+                            <tbody id="anuncios dt-center">
+                            <tr id="anuncio1">
+                                <td class="data-id"></td>
+                                <td class="data-sensor"></td>
+                                <td class="data-potencia"></td>
+                                <td class="data-horario"></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<section id="produtos">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 mx-auto">
+                <div class="row my-5">
+                    <div class="col-4">
+                        <img class="img-fluid" src="images/eletronics.png" alt="">
+                    </div>
+                    <div class="col">
+                        <div class="text-center font-roboto text-center">
+                            Acesse utilizando o aplicativo android ou pelo próprio site
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-5">
+                    <div class="col">
+                        <div class="text-center font-roboto text-center">
+                            Fácil instalação
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid" src="images/lamp.jpg" alt="">
+                    </div>
+                </div>
+                <div class="row my-5">
+                    <div class="col-4">
+                        <img class="img-fluid" src="images/graficos.jpg" alt="">
+                    </div>
+                    <div class="col">
+                        <div class="text-center font-roboto text-center">
+                            Visualização agradável: gráficos e tabelas
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contato" class="bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 mx-auto">
+                <form id="contact-form" method="post" action="contact.php" role="form">
+
+                    <div class="messages"></div>
+
+                    <div class="controls">
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_name">Nome *</label>
+                                    <input id="form_name" type="text" name="name" class="form-control"
+                                           placeholder="Digite seu nome *" required="required"
+                                           data-error="O nome é obrigatório.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_lastname">Sobrenome *</label>
+                                    <input id="form_lastname" type="text" name="surname" class="form-control"
+                                           placeholder="Digite seu sobrenome *" required="required"
+                                           data-error="O sobrenome é obrigatório.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_email">E-mail *</label>
+                                    <input id="form_email" type="email" name="email" class="form-control"
+                                           placeholder="Digite seu e-mail *" required="required"
+                                           data-error="O e-mail é obrigatório.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_phone">Telefone</label>
+                                    <input id="form_phone" type="tel" name="phone" class="form-control"
+                                           placeholder="Digite algum telefone/celular para contato">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="form_message">Mensagem *</label>
+                                    <textarea id="form_message" name="message" class="form-control"
+                                              placeholder="Digite a sua mensagem *" rows="4" required="required"
+                                              data-error="Não deixe de escrever algo."></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="col-md-12 text-left">
+                                    <p class="text-muted"><strong>*</strong> Esses campos são obrigatórios. </p>
+                                </div>
+                            </div>
+                            <div class="col">
+
+                                <div class="col-md-12 text-right">
+                                    <input type="submit" class="btn btn-success btn-send" value="Enviar E-mail">
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+    <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Sustek</p>
+    </div>
+    <!-- /.container -->
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom JavaScript for this theme -->
+<script src="js/scrolling-nav.js"></script>
+
+<!--Chart JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script>
+<script src="js/grafico.js"></script>
+<script src="js/data.js"></script>
+
+<!--Datatables -->
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.18/js/dataTables.bootstrap4.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.2/js/dataTables.buttons.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.flash.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.html5.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.print.min.js"></script>
+<script src="js/datatables.js"></script>
+
+<!-- Contato -->
+<script src="js/validator.js"></script>
+<script src="js/contact.js"></script>
+
+</body>
+
+</html>
