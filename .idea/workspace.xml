@@ -6,9 +6,8 @@
       <change beforePath="$PROJECT_DIR$/dashboard/blank.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/blank.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard/cards.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/cards.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard/charts.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/charts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/pug/includes/modals/logout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/pug/includes/modals/logout.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/pug/includes/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/pug/includes/footer.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard/tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/tables.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -117,14 +116,38 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="702115016">
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="189" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="189" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="258">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dashboard/tables.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="201" column="88" selection-start-line="201" selection-start-column="88" selection-end-line="201" selection-end-column="88" />
+              <folding>
+                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,7 +155,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dashboard/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="680">
               <caret line="40" column="62" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="62" />
             </state>
           </provider>
@@ -141,7 +164,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dashboard/cards.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
+            <state relative-caret-position="4658">
               <caret line="274" column="67" selection-start-line="274" selection-start-column="67" selection-end-line="274" selection-end-column="79" />
             </state>
           </provider>
@@ -159,7 +182,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dashboard/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
+            <state relative-caret-position="19363">
               <caret line="1139" column="40" selection-start-line="1139" selection-start-column="40" selection-end-line="1139" selection-end-column="94" />
             </state>
           </provider>
@@ -168,17 +191,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dashboard/forgot-password.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
+            <state relative-caret-position="612">
               <caret line="36" column="74" selection-start-line="36" selection-start-column="74" selection-end-line="36" selection-end-column="74" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dashboard/charts.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="395">
-              <caret line="243" column="57" lean-forward="true" selection-start-line="243" selection-start-column="57" selection-end-line="243" selection-end-column="57" />
+              <caret line="243" column="57" selection-start-line="243" selection-start-column="57" selection-end-line="243" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -195,8 +218,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>contact</find>
-      <find>my</find>
       <find>login</find>
       <find>validat</find>
       <find>col-lg-8</find>
@@ -225,6 +246,8 @@
       <find>Ready to Leave</find>
       <find>Select &quot;Logout&quot; below if you are ready to end your current session.</find>
       <find>Cancel&lt;/button&gt;</find>
+      <find>Copyright © Your Website 2018</find>
+      <find>Data Table Example</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -239,7 +262,11 @@
       <replace>Deseja Sair</replace>
       <replace>Você será rediricionado para a página inicial do site.</replace>
       <replace>Cancelar&lt;/button&gt;</replace>
+      <replace>Copyright © Sustek 2018</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\notebook\PhpstormProjects\sustek\dashboard</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -262,6 +289,7 @@
         <option value="$PROJECT_DIR$/dashboard/login.html" />
         <option value="$PROJECT_DIR$/dashboard/cards.html" />
         <option value="$PROJECT_DIR$/dashboard/charts.html" />
+        <option value="$PROJECT_DIR$/dashboard/tables.html" />
       </list>
     </option>
   </component>
@@ -293,23 +321,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="tccmaua" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tccmaua" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tccmaua" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tccmaua" type="462c0819:PsiDirectoryNode" />
-              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="sustek" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sustek" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -328,14 +351,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lucas\PhpstormProjects\sustek\js" />
-      <recent name="C:\Users\lucas\PhpstormProjects\sustek\css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lucas\PhpstormProjects\sustek\images" />
       <recent name="C:\Users\lucas\PhpstormProjects\sustek\css" />
       <recent name="C:\Users\lucas\PhpstormProjects\sustek\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lucas\PhpstormProjects\sustek\js" />
+      <recent name="C:\Users\lucas\PhpstormProjects\sustek\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -426,15 +449,16 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27880000" />
+    <option name="totallyTimeSpent" value="29015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20268457" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20536913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.21780604" />
@@ -581,8 +605,8 @@
     <entry file="file://$PROJECT_DIR$/login.html" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="258">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -595,28 +619,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="680">
           <caret line="40" column="62" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/cards.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
+        <state relative-caret-position="4658">
           <caret line="274" column="67" selection-start-line="274" selection-start-column="67" selection-end-line="274" selection-end-column="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
+        <state relative-caret-position="19363">
           <caret line="1139" column="40" selection-start-line="1139" selection-start-column="40" selection-end-line="1139" selection-end-column="94" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/forgot-password.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
+        <state relative-caret-position="612">
           <caret line="36" column="74" selection-start-line="36" selection-start-column="74" selection-end-line="36" selection-end-column="74" />
         </state>
       </provider>
@@ -624,7 +648,7 @@
     <entry file="file://$PROJECT_DIR$/dashboard/charts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
-          <caret line="243" column="57" lean-forward="true" selection-start-line="243" selection-start-column="57" selection-end-line="243" selection-end-column="57" />
+          <caret line="243" column="57" selection-start-line="243" selection-start-column="57" selection-end-line="243" selection-end-column="57" />
         </state>
       </provider>
     </entry>
