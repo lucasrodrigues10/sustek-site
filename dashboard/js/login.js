@@ -11,11 +11,12 @@ $(document).ready(function () {
             data: jsonLogin,
             contentType: "application/json; charset=utf-8",
             dataType: "json",
-            cache: false,
             statusCode: {
-                200: function () {
+                200: function (data) {
                     console.log("200 - Success");
-                    window.location.href = "index.html";
+                    if (data.responseText == 'entrou') {
+                        window.location.href = "index.html";
+                    }
                 },
                 401: function (request, status, error) {
                     alert('Dados Incorretos');
