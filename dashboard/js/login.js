@@ -1,5 +1,13 @@
 $(document).ready(function () {
+    //desloga
+    $.post('http://u643580869.hostingerapp.com/logout', function (data) {
+        console.log('Logout');
+        console.log(data)
+    });
+
     $(document).on("click", "#btn-logar", function () {
+
+
         usuario = $('#input-usuario').val();
         senha = $('#input-senha').val();
 
@@ -15,6 +23,8 @@ $(document).ready(function () {
                 200: function (data) {
                     console.log("200 - Success");
                     if (data.responseText == 'entrou') {
+                        window.location.href = "index.html";
+                    } else if (data.responseText == 'ja logou') {
                         window.location.href = "index.html";
                     }
                 },
