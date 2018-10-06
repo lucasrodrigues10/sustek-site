@@ -22,11 +22,7 @@ $(document).ready(function () {
             statusCode: {
                 200: function (data) {
                     console.log("200 - Success");
-                    if (data.responseText == 'entrou') {
-                        window.location.href = "index.html";
-                    } else if (data.responseText == 'ja logou') {
-                        window.location.href = "index.html";
-                    }
+                    window.location.href = "index.html";
                 },
                 401: function (request, status, error) {
                     alert('Dados Incorretos');
