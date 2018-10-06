@@ -8,11 +8,11 @@ $(document).ready(function () {
     $(document).on("click", "#btn-logar", function () {
 
 
-        usuario = $('#input-usuario').val();
+        email = $('#input-email').val();
         senha = $('#input-senha').val();
 
         //cria json para login
-        jsonLogin = JSON.stringify({login: usuario, pass: senha});
+        jsonLogin = JSON.stringify({login: email, pass: senha});
         $.ajax({
             type: "POST",
             url: 'http://u643580869.hostingerapp.com/login',
@@ -20,7 +20,7 @@ $(document).ready(function () {
             contentType: "application/json; charset=utf-8",
             dataType: "json",
             statusCode: {
-                200: function (data) {
+                200: function () {
                     console.log("200 - Success");
                     window.location.href = "index.html";
                 },

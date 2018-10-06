@@ -9,7 +9,6 @@ $(document).ready(function () {
         senha_2 = $('#confirmar_senha').val();
 
         if (senha_1 === senha_2) {
-            alert('ok');
             //cria json para login
             jsonRegistrar = JSON.stringify({
                 nome: primeiro_nome,
@@ -24,8 +23,9 @@ $(document).ready(function () {
                 contentType: "application/json; charset=utf-8",
                 dataType: "json",
                 statusCode: {
-                    200: function (data) {
+                    200: function () {
                         console.log("200 - Success");
+                        alert('Registrado com sucesso!');
                         window.location.href = "login.html";
                     },
                     401: function (request, status, error) {
