@@ -209,15 +209,15 @@
             <div class="card-body">
                 <form>
                     <div class="form-group row">
-                        <label for="inputEmail3" class="col-sm-2 col-form-label">Código</label>
+                        <label for="codigo_sensor" class="col-sm-2 col-form-label">Código</label>
                         <div class="col-sm-10">
-                            <input type="email" class="form-control" id="inputEmail3" placeholder="Código do Sensor">
+                            <input type="text" class="form-control" id="codigo_sensor" placeholder="Código do Sensor">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="inputPassword3" class="col-sm-2 col-form-label">Nome</label>
+                        <label for="nome_sensor" class="col-sm-2 col-form-label">Nome</label>
                         <div class="col-sm-10">
-                            <input type="password" class="form-control" id="inputPassword3"
+                            <input type="text" class="form-control" id="nome_sensor"
                                    placeholder="Nome do Sensor">
                         </div>
                     </div>
@@ -258,7 +258,7 @@
                     </fieldset>
                     <div class="form-group row">
                         <div class="col-sm-10">
-                            <button type="submit" class="btn btn-primary">Adicionar</button>
+                            <button type="submit" class="btn btn-primary" id="btn-ad-med">Adicionar</button>
                         </div>
                     </div>
                 </form>
@@ -798,9 +798,11 @@
     <script src="vendor/datatables/jquery.dataTables.js"></script>
     <script src="vendor/datatables/dataTables.bootstrap4.js"></script>
     <!-- Custom scripts for all pages-->
-    <script src="js/sb-admin.min.js"></script>
+    <script src="js/sb-admin.js"></script>
     <!-- Custom scripts for this page-->
-    <script src="js/sb-admin-datatables.min.js"></script>
+    <script src="js/sb-admin-datatables.js"></script>
+    <!-- Custom scripts for this page-->
+    <script src="js/adicionar_medidor.js"></script>
 </div>
 </body>
 
