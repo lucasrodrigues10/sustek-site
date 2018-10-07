@@ -1,14 +1,18 @@
 $(document).ready(function () {
 
-    $(document).on("click", "#btn-ad-med", function () {
+    $(document).on("click", "#btn-ad-med", function (e) {
+        e.preventDefault();
 
         nome_sensor = $('#nome_sensor').val();
         codigo_sensor = $('#codigo_sensor').val();
+        console.log(nome_sensor);
+        console.log(codigo_sensor);
 
         jsonAdicionarMedidor = JSON.stringify({
             id_sensor: codigo_sensor,
             equipamento: nome_sensor,
         });
+
         $.ajax({
             type: "POST",
             url: 'http://u643580869.hostingerapp.com/sensor',
@@ -37,10 +41,11 @@ $(document).ready(function () {
                     console.log(error);
                 }
             },
-            error: function (jqXHR, status, error) {
+            error: function (jqXHR, status, exception) {
+                alert('Erro');
                 console.log(jqXHR);
                 console.log(status);
-                console.log(error);
+                console.log(exception);
             }
         });
     });

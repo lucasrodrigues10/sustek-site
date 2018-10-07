@@ -6,8 +6,6 @@ $(document).ready(function () {
     });
 
     $(document).on("click", "#btn-logar", function () {
-
-
         email = $('#input-email').val();
         senha = $('#input-senha').val();
 
