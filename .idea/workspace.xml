@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="789506dc-94b9-41e7-b35d-3bca65114e9d" name="Default" comment="coloca a navegacao completa em todas as paginas">
+    <list default="true" id="789506dc-94b9-41e7-b35d-3bca65114e9d" name="Default" comment="mudanca do texto do alerta">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/blank.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/blank.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/cards.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/cards.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/charts.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/charts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/left-nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/left-nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/pug/includes/navbar.pug" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/pug/includes/navbar.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/tables.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -269,7 +262,7 @@
       <usages-collector id="statistics.php.rename.constructor" />
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="9" />
+          <entry key="html" value="11" />
           <entry key="js" value="1" />
           <entry key="pug" value="2" />
         </counts>
@@ -279,7 +272,7 @@
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="9" />
+          <entry key="HTML" value="11" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
@@ -287,14 +280,14 @@
       <usages-collector id="statistics.php.composer.command.options" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="442" />
-          <entry key="txt" value="80" />
+          <entry key="html" value="448" />
+          <entry key="txt" value="125" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="442" />
-          <entry key="PLAIN_TEXT" value="80" />
+          <entry key="HTML" value="448" />
+          <entry key="PLAIN_TEXT" value="125" />
         </counts>
       </usages-collector>
     </session>
@@ -310,11 +303,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dashboard/tables.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="81" selection-start-line="81" selection-end-line="81" />
+            <state relative-caret-position="258">
+              <caret line="105" column="20" selection-start-line="105" selection-start-column="20" selection-end-line="105" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dashboard/navbar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="123" column="46" lean-forward="true" selection-start-line="123" selection-start-column="46" selection-end-line="123" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -332,15 +343,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>include</find>
-      <find>medidores</find>
-      <find>Gráficos</find>
-      <find>&lt;meta name=&quot;author&quot; content=&quot;Lucas de Moura Rodrigues&quot;&gt;</find>
-      <find>Consumo por medidor</find>
-      <find>blue</find>
-      <find>Consumo Mensal</find>
-      <find>Consumo</find>
-      <find>sb-admin-charts.min.js</find>
       <find>myPieChart</find>
       <find>myAreaChart</find>
       <find>february</find>
@@ -361,6 +363,15 @@
       <find>Novas Mensagens</find>
       <find>Consumo Energético do Medidor 1</find>
       <find>Adicionar Medidor</find>
+      <find>Status Update</find>
+      <find>This is an</find>
+      <find>View all alerts</find>
+      <find>&lt;div class=&quot;dropdown-message small&quot;&gt;This is an automated</find>
+      <find>\&lt;div class\=\&quot;dropdown\-message small\&quot;\&gt;This is an automated server response message\. All systems are online\.\&lt;\/div\&gt;\n</find>
+      <find>This is an automated server response message. All systems are online.</find>
+      <find>This is an auto</find>
+      <find>This is an automated server response message\. All systems\n                            are online\.</find>
+      <find>Bem vindo à Sustek</find>
       <find>&lt;ul class=&quot;navbar-nav ml-auto&quot;&gt;</find>
     </findStrings>
     <replaceStrings>
@@ -382,6 +393,10 @@
       <replace>jsonRegistrar</replace>
       <replace>Novas Mensagens</replace>
       <replace>Novos Alertas</replace>
+      <replace>Atualização de Consumo</replace>
+      <replace>Veja todos os alertas</replace>
+      <replace>\&lt;div class\=\&quot;dropdown\-message small\&quot;\&gt;This is an automated server response message\. All systems are online\.\&lt;\/div\&gt;\n</replace>
+      <replace>Esse é uma mensagem automática: houve uma mudança de consumo.</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\notebook\PhpstormProjects\sustek\dashboard</dir>
@@ -404,7 +419,6 @@
         <option value="$PROJECT_DIR$/js/registrar.js" />
         <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/dashboard/forgot-password.html" />
-        <option value="$PROJECT_DIR$/dashboard/navbar.html" />
         <option value="$PROJECT_DIR$/dashboard/left-nav.html" />
         <option value="$PROJECT_DIR$/dashboard/php/login.php" />
         <option value="$PROJECT_DIR$/dashboard/login.html" />
@@ -418,6 +432,7 @@
         <option value="$PROJECT_DIR$/dashboard/cards.html" />
         <option value="$PROJECT_DIR$/dashboard/blank.html" />
         <option value="$PROJECT_DIR$/dashboard/charts.html" />
+        <option value="$PROJECT_DIR$/dashboard/navbar.html" />
         <option value="$PROJECT_DIR$/dashboard/tables.html" />
       </list>
     </option>
@@ -457,17 +472,6 @@
             <path>
               <item name="sustek-site" type="b2602c69:ProjectViewProjectNode" />
               <item name="sustek-site" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sustek-site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sustek-site" type="462c0819:PsiDirectoryNode" />
-              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sustek-site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sustek-site" type="462c0819:PsiDirectoryNode" />
-              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -581,7 +585,7 @@
       <workItem from="1538888649116" duration="1158000" />
       <workItem from="1538945939353" duration="639000" />
       <workItem from="1539458467055" duration="7000" />
-      <workItem from="1539906676289" duration="2695000" />
+      <workItem from="1539906676289" duration="3224000" />
     </task>
     <task id="LOCAL-00001" summary="adicionei descricao do meta">
       <created>1536564035126</created>
@@ -695,11 +699,25 @@
       <option name="project" value="LOCAL" />
       <updated>1539910499642</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="tirei mensagens">
+      <created>1539910900317</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1539910900317</updated>
+    </task>
+    <task id="LOCAL-00018" summary="mudanca do texto do alerta">
+      <created>1539911276772</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1539911276772</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63002000" />
+    <option name="totallyTimeSpent" value="63531000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
@@ -755,7 +773,9 @@
     <MESSAGE value="login faz conexao com 200, caso contrario" />
     <MESSAGE value="atualizei as noticias" />
     <MESSAGE value="coloca a navegacao completa em todas as paginas" />
-    <option name="LAST_COMMIT_MESSAGE" value="coloca a navegacao completa em todas as paginas" />
+    <MESSAGE value="tirei mensagens" />
+    <MESSAGE value="mudanca do texto do alerta" />
+    <option name="LAST_COMMIT_MESSAGE" value="mudanca do texto do alerta" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -833,13 +853,6 @@
     <entry file="file://$PROJECT_DIR$/../tccmaua/dashboard/vendor/jquery/jquery.min.js" />
     <entry file="file://$PROJECT_DIR$/../tccmaua/dashboard/tables.html" />
     <entry file="file://$PROJECT_DIR$/../tccmaua/dashboard/js/adicionar_medidor.js" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/js/sb-admin-charts.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -893,10 +906,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="123" column="46" lean-forward="true" selection-start-line="123" selection-start-column="46" selection-end-line="123" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/tables.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        <state relative-caret-position="258">
+          <caret line="105" column="20" selection-start-line="105" selection-start-column="20" selection-end-line="105" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
         </state>
       </provider>
     </entry>
