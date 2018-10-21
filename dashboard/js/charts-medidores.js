@@ -79,7 +79,7 @@ var myLineChart = new Chart(ctx, {
     }
 });
 // -- Bar Chart Example
-var ctx = document.getElementById("chart-bar-consumo-mensal");
+var ctx = document.getElementById("chart-bar-consumo-mensal-medidor");
 var myLineChart = new Chart(ctx, {
     type: 'bar',
     data: {

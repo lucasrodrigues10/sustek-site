@@ -154,7 +154,7 @@
             <div class="card-header">
                 <i class="fa fa-table"></i> Medidores
             </div>
-            <div class="card-body" >
+            <div class="card-body">
                 <div class="row" id="medidores">
                 </div>
                 <div class="row" id="medidores-fotos">
@@ -167,12 +167,20 @@
 
         <div class="card mb-3">
             <div class="card-header">
-                <i class="fa fa-area-chart"></i> Consumo Energético - Pipoqueira
-
+                <div class="form-group row mx-auto text-center">
+                    <div class="col-6">
+                        <i class="fa fa-area-chart"></i> Consumo Energético
+                    </div>
+                    <div class="col-6">
+                        <select class="form-control form-control-sm" id="select-medidor">
+                        </select>
+                    </div>
+                </div>
             </div>
             <div class="card-body">
-                <canvas id="myAreaChart" width="100%" height="30"></canvas>
-                <canvas id="myBarChart" width="100" height="30"></canvas>
+
+                <canvas id="chart-line-consumo-anual" width="100%" height="30"></canvas>
+                <canvas id="chart-bar-consumo-mensal-medidor" width="100" height="30"></canvas>
             </div>
             <div class="card-footer small text-muted">Atualizado hoje ao 12:00</div>
         </div>
@@ -287,6 +295,7 @@
 <!-- Custom scripts for this page-->
 <script src="js/sb-admin-charts.js"></script>
 <script src="js/pegar_sensores.js"></script>
+<script src="js/charts-medidores.js"></script>
 
 </div>
 </body>

@@ -17,6 +17,8 @@ $(document).ready(function () {
                     medidor = data[i]["equipamento"];
                     medidores.push(medidor);
                     $("#medidores").append("<div class='col text-center'><p class='h4'>" + medidor + "</p></div>");
+                    $("#select-medidor").append("<option class=''>" + medidor + "</option>");
+
                 }
                 for (i = 0; i < data.length; i++) {
                     medidor = data[i]["equipamento"];
