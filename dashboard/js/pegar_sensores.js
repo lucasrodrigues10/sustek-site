@@ -22,7 +22,7 @@ $(document).ready(function () {
                     medidor = data[i]["equipamento"];
                     medidores.push(medidor);
 
-                    $("#medidores-fotos").append("<div class='col'><img src='assets/img/" + medidor + ".jpg' class='img-fluid' alt='Responsive image'>" + "</div>");
+                    $("#medidores-fotos").append("<div class='col'><img src='assets/img/" + medidor + ".jpg' class='img-fluid rounded mx-auto d-block' alt='Responsive image'>" + "</div>");
                 }
                 console.log(medidores);
                 console.log("200 - Success");
