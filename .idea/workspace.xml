@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="789506dc-94b9-41e7-b35d-3bca65114e9d" name="Default" comment="alertas atualizados">
+    <list default="true" id="789506dc-94b9-41e7-b35d-3bca65114e9d" name="Default" comment="adicionei imagens">
+      <change afterPath="$PROJECT_DIR$/dashboard/assets/img/Ventilador.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/assets/img/geladeira.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/assets/img/Geladeira.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/assets/img/pc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/assets/img/Computador.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/assets/img/pipoqueira.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/assets/img/Pipoqueira.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/assets/img/tv.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/assets/img/Televisao.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard/charts.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/charts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/js/pegar-medidores.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard/js/pegar_sensores.js" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/js/pegar_sensores.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/tables.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -265,7 +270,7 @@
       <usages-collector id="statistics.php.rename.constructor" />
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="15" />
+          <entry key="html" value="16" />
           <entry key="js" value="6" />
           <entry key="pug" value="2" />
         </counts>
@@ -275,7 +280,7 @@
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="15" />
+          <entry key="HTML" value="16" />
           <entry key="JavaScript" value="6" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
@@ -283,27 +288,27 @@
       <usages-collector id="statistics.php.composer.command.options" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1059" />
-          <entry key="js" value="264" />
-          <entry key="txt" value="265" />
+          <entry key="html" value="1186" />
+          <entry key="js" value="361" />
+          <entry key="txt" value="320" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1059" />
-          <entry key="JavaScript" value="264" />
-          <entry key="PLAIN_TEXT" value="265" />
+          <entry key="HTML" value="1187" />
+          <entry key="JavaScript" value="360" />
+          <entry key="PLAIN_TEXT" value="320" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dashboard/charts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="263" lean-forward="true" selection-start-line="263" selection-end-line="263" />
+            <state relative-caret-position="2521">
+              <caret line="112" column="53" lean-forward="true" selection-start-line="112" selection-start-column="53" selection-end-line="112" selection-end-column="53" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -316,8 +321,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dashboard/js/pegar_sensores.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            <state relative-caret-position="322">
+              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dashboard/tables.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="172" column="119" selection-start-line="172" selection-start-column="119" selection-end-line="172" selection-end-column="119" />
             </state>
           </provider>
         </entry>
@@ -335,8 +349,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>News Feed</find>
-      <find>revenue</find>
       <find>Aneel descarta necessidade de aumentar custo de bandeiras tarifárias</find>
       <find>body&gt;</find>
       <find>Feed Example</find>
@@ -363,8 +375,10 @@
       <find>Consumo Energéti</find>
       <find>Consu</find>
       <find>\&lt;li class\=\&quot;nav\-item\&quot; data\-toggle\=\&quot;tooltip\&quot; data\-placement\=\&quot;right\&quot; title\=\&quot;Medidores\&quot;\&gt;\n                \&lt;a class\=\&quot;nav\-link\&quot; href\=\&quot;tables\.html\&quot;\&gt;\n                    \&lt;i class\=\&quot;fa fa\-fw fa\-table\&quot;\&gt;\&lt;\/i\&gt;\n                    \&lt;span class\=\&quot;nav\-link\-text\&quot;\&gt;Medidores\&lt;\/span\&gt;\n                \&lt;\/a\&gt;\n            \&lt;\/li\&gt;</find>
-      <find>Adicionar Medidor</find>
       <find>Consumo Energético do Medidor 1</find>
+      <find>Adiciona</find>
+      <find>Alertas</find>
+      <find>Adicionar Medidor</find>
     </findStrings>
     <replaceStrings>
       <replace>col-lg-10</replace>
@@ -428,9 +442,9 @@
         <option value="$PROJECT_DIR$/dashboard/js/sb-admin-charts.js" />
         <option value="$PROJECT_DIR$/dashboard/js/pegar-medidores.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/dashboard/tables.html" />
-        <option value="$PROJECT_DIR$/dashboard/js/pegar_sensores.js" />
         <option value="$PROJECT_DIR$/dashboard/charts.html" />
+        <option value="$PROJECT_DIR$/dashboard/js/pegar_sensores.js" />
+        <option value="$PROJECT_DIR$/dashboard/tables.html" />
       </list>
     </option>
   </component>
@@ -474,6 +488,19 @@
               <item name="sustek-site" type="b2602c69:ProjectViewProjectNode" />
               <item name="sustek-site" type="462c0819:PsiDirectoryNode" />
               <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sustek-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sustek-site" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sustek-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sustek-site" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -589,7 +616,7 @@
       <workItem from="1539458467055" duration="7000" />
       <workItem from="1539906676289" duration="5432000" />
       <workItem from="1539916494472" duration="1725000" />
-      <workItem from="1540077300864" duration="2692000" />
+      <workItem from="1540077300864" duration="3853000" />
     </task>
     <task id="LOCAL-00001" summary="adicionei descricao do meta">
       <created>1536564035126</created>
@@ -745,11 +772,25 @@
       <option name="project" value="LOCAL" />
       <updated>1540078630999</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="pega os medidores do banco">
+      <created>1540080053361</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1540080053361</updated>
+    </task>
+    <task id="LOCAL-00024" summary="adicionei imagens">
+      <created>1540080174938</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1540080174938</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70156000" />
+    <option name="totallyTimeSpent" value="71317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
@@ -812,7 +853,9 @@
     <MESSAGE value="alinha texto das imagens da pagina inicial" />
     <MESSAGE value="mudancao das sugestoes e alertas" />
     <MESSAGE value="alertas atualizados" />
-    <option name="LAST_COMMIT_MESSAGE" value="alertas atualizados" />
+    <MESSAGE value="pega os medidores do banco" />
+    <MESSAGE value="adicionei imagens" />
+    <option name="LAST_COMMIT_MESSAGE" value="adicionei imagens" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -960,17 +1003,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/tables.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="166" column="121" selection-start-line="166" selection-start-column="121" selection-end-line="166" selection-end-column="121" />
-          <folding>
-            <element signature="e#10377#10384#1" expanded="true" />
-            <element signature="e#10796#10803#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/js/pegar-medidores.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -978,22 +1010,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/js/pegar_sensores.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/charts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="263" lean-forward="true" selection-start-line="263" selection-end-line="263" />
+        <state relative-caret-position="2521">
+          <caret line="112" column="53" lean-forward="true" selection-start-line="112" selection-start-column="53" selection-end-line="112" selection-end-column="53" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/js/pegar_sensores.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/tables.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="172" column="119" selection-start-line="172" selection-start-column="119" selection-end-line="172" selection-end-column="119" />
         </state>
       </provider>
     </entry>

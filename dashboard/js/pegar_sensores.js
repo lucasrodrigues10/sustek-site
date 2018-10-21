@@ -16,7 +16,13 @@ $(document).ready(function () {
                 for (i = 0; i < data.length; i++) {
                     medidor = data[i]["equipamento"];
                     medidores.push(medidor);
-                    $("#medidores").append("<div class='col text-center'>" + medidor + "</div>");
+                    $("#medidores").append("<div class='col text-center'><p class='h4'>" + medidor + "</p></div>");
+                }
+                for (i = 0; i < data.length; i++) {
+                    medidor = data[i]["equipamento"];
+                    medidores.push(medidor);
+
+                    $("#medidores-fotos").append("<div class='col'><img src='assets/img/" + medidor + ".jpg' class='img-fluid' alt='Responsive image'>" + "</div>");
                 }
                 console.log(medidores);
                 console.log("200 - Success");
