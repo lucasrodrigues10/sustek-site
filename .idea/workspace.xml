@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="789506dc-94b9-41e7-b35d-3bca65114e9d" name="Default" comment="coloquei fotos no sensor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/charts.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/charts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/js/pegar_sensores.js" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/js/pegar_sensores.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/tables.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/js/sb-admin-charts.js" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/js/sb-admin-charts.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -267,7 +265,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="19" />
-          <entry key="js" value="6" />
+          <entry key="js" value="8" />
           <entry key="pug" value="2" />
         </counts>
       </usages-collector>
@@ -277,22 +275,22 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="19" />
-          <entry key="JavaScript" value="6" />
+          <entry key="JavaScript" value="8" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.command.options" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1280" />
-          <entry key="js" value="362" />
+          <entry key="html" value="1340" />
+          <entry key="js" value="582" />
           <entry key="txt" value="344" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1281" />
-          <entry key="JavaScript" value="361" />
+          <entry key="HTML" value="1341" />
+          <entry key="JavaScript" value="581" />
           <entry key="PLAIN_TEXT" value="344" />
         </counts>
       </usages-collector>
@@ -301,22 +299,35 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dashboard/charts.html">
+        <entry file="file://$PROJECT_DIR$/dashboard/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="174" column="61" selection-start-line="174" selection-start-column="61" selection-end-line="174" selection-end-column="61" />
+            <state relative-caret-position="189">
+              <caret line="238" column="34" lean-forward="true" selection-start-line="238" selection-start-column="34" selection-end-line="238" selection-end-column="34" />
               <folding>
-                <element signature="n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#2;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#2;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dashboard/tables.html">
+        <entry file="file://$PROJECT_DIR$/dashboard/js/sb-admin-charts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="168" column="63" lean-forward="true" selection-start-line="168" selection-start-column="63" selection-end-line="168" selection-end-column="63" />
+            <state relative-caret-position="461">
+              <caret line="35" column="89" selection-start-line="35" selection-start-column="89" selection-end-line="35" selection-end-column="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dashboard/charts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-513">
+              <caret line="173" column="39" selection-start-line="173" selection-start-column="28" selection-end-line="173" selection-end-column="39" />
+              <folding>
+                <element signature="n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -326,19 +337,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="552">
               <caret line="24" column="149" selection-start-line="24" selection-start-column="149" selection-end-line="24" selection-end-column="149" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dashboard/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="237" column="48" selection-start-line="237" selection-end-line="238" />
-              <folding>
-                <element signature="n#div#1;n#div#2;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#2;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -383,9 +381,9 @@
       <find>Visualização agradável: gráficos e tabelas</find>
       <find>&lt;canvas</find>
       <find>Adicionar Medidor</find>
+      <find>Consumo Energético - Pipoqueira</find>
       <find>&lt;canvas id</find>
       <find>O consumo do computador passou do limite!</find>
-      <find>Consumo Energético - Pipoqueira</find>
     </findStrings>
     <replaceStrings>
       <replace>col-lg-10</replace>
@@ -442,16 +440,16 @@
         <option value="$PROJECT_DIR$/dashboard/js/registrar.js" />
         <option value="$PROJECT_DIR$/dashboard/js/login.js" />
         <option value="$PROJECT_DIR$/dashboard/js/adicionar_medidor.js" />
-        <option value="$PROJECT_DIR$/dashboard/index.html" />
         <option value="$PROJECT_DIR$/dashboard/cards.html" />
         <option value="$PROJECT_DIR$/dashboard/blank.html" />
         <option value="$PROJECT_DIR$/dashboard/navbar.html" />
-        <option value="$PROJECT_DIR$/dashboard/js/sb-admin-charts.js" />
         <option value="$PROJECT_DIR$/dashboard/js/pegar-medidores.js" />
         <option value="$PROJECT_DIR$/dashboard/js/pegar_sensores.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/dashboard/charts.html" />
         <option value="$PROJECT_DIR$/dashboard/tables.html" />
+        <option value="$PROJECT_DIR$/dashboard/index.html" />
+        <option value="$PROJECT_DIR$/dashboard/js/sb-admin-charts.js" />
       </list>
     </option>
   </component>
@@ -610,7 +608,7 @@
       <workItem from="1539458467055" duration="7000" />
       <workItem from="1539906676289" duration="5432000" />
       <workItem from="1539916494472" duration="1725000" />
-      <workItem from="1540077300864" duration="5764000" />
+      <workItem from="1540077300864" duration="7798000" />
     </task>
     <task id="LOCAL-00001" summary="adicionei descricao do meta">
       <created>1536564035126</created>
@@ -787,11 +785,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540081273915</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="coloquei fotos no sensor">
+      <created>1540083338765</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1540083338765</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73228000" />
+    <option name="totallyTimeSpent" value="75262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
@@ -894,7 +899,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/params.js" />
     <entry file="file://$PROJECT_DIR$/../tccmaua/css/scrolling-nav.css" />
     <entry file="file://$PROJECT_DIR$/../tccmaua/gulpfile.js" />
     <entry file="file://$PROJECT_DIR$/../tccmaua/css/login.css" />
@@ -973,13 +977,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/js/sb-admin-charts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/js/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -1008,10 +1005,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/tables.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="168" column="63" lean-forward="true" selection-start-line="168" selection-start-column="63" selection-end-line="168" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/js/sb-admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/charts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-513">
+          <caret line="173" column="39" selection-start-line="173" selection-start-column="28" selection-end-line="173" selection-end-column="39" />
+          <folding>
+            <element signature="n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="237" column="48" selection-start-line="237" selection-end-line="238" />
+        <state relative-caret-position="189">
+          <caret line="238" column="34" lean-forward="true" selection-start-line="238" selection-start-column="34" selection-end-line="238" selection-end-column="34" />
           <folding>
             <element signature="n#div#1;n#div#2;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#2;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -1019,20 +1042,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/charts.html">
+    <entry file="file://$PROJECT_DIR$/dashboard/js/sb-admin-charts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="174" column="61" selection-start-line="174" selection-start-column="61" selection-end-line="174" selection-end-column="61" />
-          <folding>
-            <element signature="n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard/tables.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="168" column="63" lean-forward="true" selection-start-line="168" selection-start-column="63" selection-end-line="168" selection-end-column="63" />
+        <state relative-caret-position="461">
+          <caret line="35" column="89" selection-start-line="35" selection-start-column="89" selection-end-line="35" selection-end-column="89" />
         </state>
       </provider>
     </entry>
