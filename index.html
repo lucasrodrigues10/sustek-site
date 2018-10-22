@@ -20,7 +20,8 @@
 
     <!-- Datatables -->
     <link href='https://cdn.datatables.net/1.10.18/css/dataTables.bootstrap4.min.css' rel='stylesheet' type='text/css'>
-    <link href='https://cdn.datatables.net/buttons/1.5.2/css/buttons.dataTables.min.css' rel='stylesheet' type='text/css'>
+    <link href='https://cdn.datatables.net/buttons/1.5.2/css/buttons.dataTables.min.css' rel='stylesheet'
+          type='text/css'>
 
     <!-- Contato -->
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
@@ -123,18 +124,26 @@
                                cellspacing="0" style="width: 100%">
                             <thead>
                             <tr>
-                                <th>ID</th>
                                 <th>Sensor</th>
-                                <th>Consumo</th>
+                                <th>Consumo Médio (kWh)</th>
                                 <th>Data</th>
                             </tr>
                             </thead>
                             <tbody id="anuncios dt-center">
                             <tr id="anuncio1">
-                                <td class="data-id"></td>
-                                <td class="data-sensor"></td>
-                                <td class="data-potencia"></td>
-                                <td class="data-horario"></td>
+                                <td class="data-sensor">Geladeira</td>
+                                <td class="data-potencia">800</td>
+                                <td class="data-horario">Segunda Feira - 20:50</td>
+                            </tr>
+                            <tr id="anuncio2">
+                                <td class="data-sensor">Televisão</td>
+                                <td class="data-potencia">100</td>
+                                <td class="data-horario">Terça Feira - 21:00</td>
+                            </tr>
+                            <tr id="anuncio3">
+                                <td class="data-sensor">Computador</td>
+                                <td class="data-potencia">400</td>
+                                <td class="data-horario">Sexta Feira - 22:22</td>
                             </tr>
                             </tbody>
                         </table>
@@ -143,7 +152,7 @@
             </div>
         </div>
     </div>
-    </div>
+
 </section>
 
 <section id="produtos">

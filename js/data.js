@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    /*
     $.ajax({
         url: "http://demo4289605.mockable.io/medidor"
     }).then(function(data) {
@@ -7,4 +8,5 @@ $(document).ready(function() {
         $('.data-potencia').append(data.Potencia);
         $('.data-horario').append(data.Tempo);
     });
+    */
 });
