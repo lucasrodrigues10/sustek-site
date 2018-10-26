@@ -7,7 +7,7 @@ $(document).ready(function () {
     $(document).on("click", "#atualizar-grafico", function () {
         alert('oi');
     });
-	
+	//previsao do gasto
 	$.ajax({
 		type: "GET",
 		url: 'http://u643580869.hostingerapp.com/gasto',
@@ -20,22 +20,13 @@ $(document).ready(function () {
 	
 	//pega consumo instataneo de cada medidor
 	//TIRAR DO TIMEOUT PQ SE NAO HOSTINGER DETECTA LOOP E BLOQUEIA REQ
-    setInterval(function () {
-        $.ajax({
-			type: "GET",
-			url: 'http://u643580869.hostingerapp.com/consumo/individual/1',
-			success: function (data){
-				console.log(data);
-			}
-		});
-	}
-    ,10000);
+    
 	
     var ctx = document.getElementById("chart-line-consumo-diario");
-    var myLineChart = new Chart(ctx, {
+    var ConsumoChart = new Chart(ctx, {
         type: 'line',
         data: {
-            labels: ['08AM', '09AM', '10AM', '11AM', '12AM'],
+            labels: [],
             datasets: [{
                 label: "Real",
                 lineTension: 0.3,
@@ -48,7 +39,7 @@ $(document).ready(function () {
                 pointHoverBackgroundColor: "rgba(2,117,216,1)",
                 pointHitRadius: 20,
                 pointBorderWidth: 2,
-                data: [200, 300, 400, 200, 300],
+                data: [],
             }
             ],
         },
@@ -94,6 +85,24 @@ $(document).ready(function () {
             }
         }
     });
+	
+	setInterval(function () {
+        $.ajax({
+			type: "GET",
+			url: 'http://u643580869.hostingerapp.com/consumo/individual/1',
+			success: function (data){
+				data.consulta.forEach(function (item){
+					ConsumoChart.data.datasets[0].data.push(item.potencia);
+					ConsumoChart.data.datasets[0].labels.push(item.hora);
+					ConsumoChart.update();
+				});
+				
+				console.log (data);
+			}
+		});
+	}
+    ,10000);
+	
 // -- Area Chart Example
     var ctx = document.getElementById("chart-line-consumo-anual");
     var myLineChart = new Chart(ctx, {
@@ -170,6 +179,8 @@ $(document).ready(function () {
             }
         }
     });
+	
+	
 // -- Bar Chart Example
     var ctx = document.getElementById("chart-bar-consumo-mensal-medidor");
     var myLineChart = new Chart(ctx, {
@@ -228,6 +239,7 @@ $(document).ready(function () {
             }],
         },
     });
-
+	
+	// console.log(myPieChart);
 
 });
