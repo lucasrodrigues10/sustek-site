@@ -7,7 +7,19 @@ $(document).ready(function () {
     $(document).on("click", "#atualizar-grafico", function () {
         alert('oi');
     });
-
+	
+	$.ajax({
+		type: "GET",
+		url: 'http://u643580869.hostingerapp.com/gasto',
+		success: function (data){
+			console.log(data.gasto);
+			$("#consumo").text('68,69');
+		}
+	});
+	
+	
+	//pega consumo instataneo de cada medidor
+	//TIRAR DO TIMEOUT PQ SE NAO HOSTINGER DETECTA LOOP E BLOQUEIA REQ
     setInterval(function () {
         $.ajax({
 			type: "GET",
@@ -17,7 +29,7 @@ $(document).ready(function () {
 			}
 		});
 	}
-    ,5000);
+    ,10000);
 	
     var ctx = document.getElementById("chart-line-consumo-diario");
     var myLineChart = new Chart(ctx, {
