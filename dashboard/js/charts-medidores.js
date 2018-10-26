@@ -12,8 +12,8 @@ $(document).ready(function () {
 		type: "GET",
 		url: 'http://u643580869.hostingerapp.com/gasto',
 		success: function (data){
-			console.log(data.gasto);
-			$("#consumo").text('68,69');
+			console.log(data);
+			$("#consumo").text(data.gasto);
 		}
 	});
 	
