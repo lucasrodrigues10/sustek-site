@@ -18,6 +18,28 @@ $(document).ready(function () {
 	});
 	
 	
+	
+	labels_consumo = [];
+	data_consumo = [];
+	
+	$.ajax({
+			type: "GET",
+			url: 'http://u643580869.hostingerapp.com/consumo/individual/1',
+			async:false,
+			success: function (data){
+				data.consulta.forEach(function (item){
+					data_consumo.push(item.potencia);
+					labels_consumo.push(item.hora);
+					
+					// ConsumoChart.update();
+				});
+				
+				console.log (data_consumo);
+				console.log (labels_consumo);
+			}
+		});
+	
+		
 	//pega consumo instataneo de cada medidor
 	//TIRAR DO TIMEOUT PQ SE NAO HOSTINGER DETECTA LOOP E BLOQUEIA REQ
     
@@ -26,7 +48,7 @@ $(document).ready(function () {
     var ConsumoChart = new Chart(ctx, {
         type: 'line',
         data: {
-            labels: [],
+            labels: labels_consumo,
             datasets: [{
                 label: "Real",
                 lineTension: 0.3,
@@ -39,9 +61,25 @@ $(document).ready(function () {
                 pointHoverBackgroundColor: "rgba(2,117,216,1)",
                 pointHitRadius: 20,
                 pointBorderWidth: 2,
-                data: [],
-            }
+                data: data_consumo,
+            },{
+				label: "Real",
+                lineTension: 0.3,
+                backgroundColor: "rgba(2,117,216,0.2)",
+                borderColor: "rgba(2,117,216,1)",
+                pointRadius: 5,
+                pointBackgroundColor: "rgba(2,117,216,1)",
+                pointBorderColor: "rgba(255,255,255,0.8)",
+                pointHoverRadius: 5,
+                pointHoverBackgroundColor: "rgba(255,140,0,1)",
+                pointHitRadius: 20,
+                pointBorderWidth: 2,
+                data: data_consumo,
+			}
             ],
+			
+			
+		
         },
         options: {
             title: {
@@ -86,22 +124,7 @@ $(document).ready(function () {
         }
     });
 	
-	setInterval(function () {
-        $.ajax({
-			type: "GET",
-			url: 'http://u643580869.hostingerapp.com/consumo/individual/1',
-			success: function (data){
-				data.consulta.forEach(function (item){
-					ConsumoChart.data.datasets[0].data.push(item.potencia);
-					ConsumoChart.data.datasets[0].labels.push(item.hora);
-					ConsumoChart.update();
-				});
-				
-				console.log (data);
-			}
-		});
-	}
-    ,10000);
+	// ConsumoChart.update();
 	
 // -- Area Chart Example
     var ctx = document.getElementById("chart-line-consumo-anual");
@@ -239,6 +262,8 @@ $(document).ready(function () {
             }],
         },
     });
+	
+	
 	
 	// console.log(myPieChart);
 

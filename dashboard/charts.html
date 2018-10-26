@@ -180,13 +180,19 @@
             <div class="card-body">
                 <canvas id="chart-line-consumo-diario" width="100%" height="30"></canvas>
                 <div class="row">
+					<div class="col-6 text-left">
+                        <span  class="h4 label label-primary">Consumo da próxima hora (W):  <span
+                                class="h4 mb-0 text-danger" id="previsao">12900</span></span>
+                    </div>
                     <div class="col-6 text-left">
                         <span  class="h4 label label-primary">Consumo Diário Acumulado (R$):  <span
                                 class="h4 mb-0 text-danger" id="consumo">$7,235</span></span>
                     </div>
+					<!--
                     <div class="col-6 text-right">
                         <button class="btn btn-primary btn-sm" id="atualizar-grafico"> Atualizar Gráfico</button>
                     </div>
+					-->
                 </div>
                 <hr>
                 <canvas id="chart-line-consumo-anual" width="100%" height="30"></canvas>
