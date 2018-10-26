@@ -9,9 +9,16 @@ $(document).ready(function () {
     });
 
     setInterval(function () {
-        alert('Data: ' + new Date());
-    },50000);
-
+        $.ajax({
+			type: "GET",
+			url: 'http://u643580869.hostingerapp.com/consumo/individual/1',
+			success: function (data){
+				console.log(data);
+			}
+		});
+	}
+    ,5000);
+	
     var ctx = document.getElementById("chart-line-consumo-diario");
     var myLineChart = new Chart(ctx, {
         type: 'line',
