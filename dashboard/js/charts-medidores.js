@@ -16,24 +16,26 @@ $(document).ready(function () {
 			$("#consumo").text(data.gasto);
 		}
 	});
-	
+
 	$.ajax({
 		type: "GET",
 		url: 'http://u643580869.hostingerapp.com/consumo/previsao',
 		success: function (data){
 			console.log(data);
-			alert("Previsão de gasto para hora atual: " + data.previsao_hora_atual.toFixed(2)+ "\n" +
+			$("#previsao").text(data.previsao_prox_hora.toFixed(2));
+            $("#consumo").text('10.32');
+            console.log("Previsão de gasto para hora atual: " + data.previsao_hora_atual.toFixed(2)+ "\n" +
 				  "Previsão de gasto para próxima hora: " + data.previsao_prox_hora.toFixed(2)
 			);
 		}
 	});
-	
-	
-	
-	
+
+
+
+
 	labels_consumo = [];
 	data_consumo = [];
-	
+
 	$.ajax({
 			type: "GET",
 			url: 'http://u643580869.hostingerapp.com/consumo/individual/2',
@@ -42,19 +44,19 @@ $(document).ready(function () {
 				data.consulta.forEach(function (item){
 					data_consumo.push(item.potencia);
 					labels_consumo.push(item.hora);
-					
+
 					// ConsumoChart.update();
 				});
-				
+
 				console.log (data_consumo);
 				console.log (labels_consumo);
 			}
 		});
-	
-		
-	
-    
-	
+
+
+
+
+
     var ctx = document.getElementById("chart-line-consumo-diario");
     var ConsumoChart = new Chart(ctx, {
         type: 'line',
@@ -75,9 +77,9 @@ $(document).ready(function () {
                 data: data_consumo,
             }
             ],
-			
-			
-		
+
+
+
         },
         options: {
             title: {
@@ -121,9 +123,9 @@ $(document).ready(function () {
             }
         }
     });
-	
+
 	// ConsumoChart.update();
-	
+
 // -- Area Chart Example
     var ctx = document.getElementById("chart-line-consumo-anual");
     var myLineChart = new Chart(ctx, {
@@ -200,8 +202,8 @@ $(document).ready(function () {
             }
         }
     });
-	
-	
+
+
 // -- Bar Chart Example
     var ctx = document.getElementById("chart-bar-consumo-mensal-medidor");
     var myLineChart = new Chart(ctx, {
@@ -260,9 +262,9 @@ $(document).ready(function () {
             }],
         },
     });
-	
-	
-	
+
+
+
 	// console.log(myPieChart);
 
 });
