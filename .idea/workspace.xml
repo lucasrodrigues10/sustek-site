@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="789506dc-94b9-41e7-b35d-3bca65114e9d" name="Default" comment="mudei o logo do site">
+    <list default="true" id="789506dc-94b9-41e7-b35d-3bca65114e9d" name="Default" comment="consumo dos medidores atualizado">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/js/charts-medidores.js" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/js/charts-medidores.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -298,30 +298,30 @@
     <session id="1636655410">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="3" />
-          <entry key="ico" value="1" />
+          <entry key="html" value="4" />
+          <entry key="ico" value="2" />
           <entry key="js" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="3" />
-          <entry key="Image" value="1" />
+          <entry key="HTML" value="4" />
+          <entry key="Image" value="2" />
           <entry key="JavaScript" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="107" />
-          <entry key="js" value="39" />
-          <entry key="txt" value="20" />
+          <entry key="js" value="91" />
+          <entry key="txt" value="71" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="107" />
-          <entry key="JavaScript" value="39" />
-          <entry key="PLAIN_TEXT" value="20" />
+          <entry key="JavaScript" value="91" />
+          <entry key="PLAIN_TEXT" value="71" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -343,11 +343,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="43" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="43" />
+            <state relative-caret-position="110">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -357,10 +357,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dashboard/charts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="184" column="72" selection-start-line="184" selection-start-column="64" selection-end-line="184" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dashboard/js/charts-medidores.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="253" column="12" lean-forward="true" selection-start-line="253" selection-start-column="12" selection-end-line="253" selection-end-column="12" />
+            <state relative-caret-position="132">
+              <caret line="116" column="48" selection-start-line="116" selection-start-column="48" selection-end-line="116" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -378,9 +387,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Consumo Energético Anual</find>
-      <find>Fácil instalação</find>
-      <find>myAreaChart</find>
       <find>Consumo Energ</find>
       <find>Consumo Energéti</find>
       <find>Consu</find>
@@ -408,6 +414,9 @@
       <find>Consumo Energético</find>
       <find>chart-line-consumo-diario</find>
       <find>bem vind</find>
+      <find>Consumo da próxima hora (W)</find>
+      <find>alert</find>
+      <find>Energia</find>
     </findStrings>
     <replaceStrings>
       <replace>col-lg-10</replace>
@@ -474,8 +483,8 @@
         <option value="$PROJECT_DIR$/dashboard/js/sb-admin-datatables.js" />
         <option value="$PROJECT_DIR$/dashboard/js/datatables.js" />
         <option value="$PROJECT_DIR$/dashboard/index.html" />
-        <option value="$PROJECT_DIR$/dashboard/js/charts-medidores.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/dashboard/js/charts-medidores.js" />
       </list>
     </option>
   </component>
@@ -526,6 +535,11 @@
               <item name="sustek-site" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
+            <path>
+              <item name="sustek-site" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="dashboard" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -555,11 +569,11 @@
       <recent name="C:\Users\lucas\PhpstormProjects\sustek\css" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\notebook\PhpstormProjects\sustek-site\dashboard" />
       <recent name="C:\Users\notebook\PhpstormProjects\sustek-site" />
       <recent name="C:\Users\notebook\PhpstormProjects\sustek-site\images" />
       <recent name="C:\Users\computador\PhpstormProjects\sustek-site\dashboard\js" />
       <recent name="C:\Users\computador\PhpstormProjects\sustek-site\dashboard" />
-      <recent name="C:\Users\computador\PhpstormProjects\sustek-site\dashboard\assets\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -642,7 +656,7 @@
       <workItem from="1540077300864" duration="9594000" />
       <workItem from="1540143154765" duration="13552000" />
       <workItem from="1540652901036" duration="353000" />
-      <workItem from="1540653260550" duration="1449000" />
+      <workItem from="1540653260550" duration="2229000" />
     </task>
     <task id="LOCAL-00001" summary="adicionei descricao do meta">
       <created>1536564035126</created>
@@ -847,14 +861,29 @@
       <option name="project" value="LOCAL" />
       <updated>1540654385019</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="mudei o favicon.ico">
+      <created>1540654798322</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1540654798322</updated>
+    </task>
+    <task id="LOCAL-00031" summary="consumo dos medidores atualizado">
+      <created>1540655363783</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1540655363783</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93357000" />
+    <option name="totallyTimeSpent" value="94137000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -892,8 +921,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="requisito adicionar medidor" />
-    <MESSAGE value="adicionei nav sugestoes e contato" />
     <MESSAGE value="fim do dia" />
     <MESSAGE value="pre atualizacoes" />
     <MESSAGE value="update npm package" />
@@ -917,7 +944,9 @@
     <MESSAGE value="melhora no grafico total" />
     <MESSAGE value="possivel selecionar medidor" />
     <MESSAGE value="mudei o logo do site" />
-    <option name="LAST_COMMIT_MESSAGE" value="mudei o logo do site" />
+    <MESSAGE value="mudei o favicon.ico" />
+    <MESSAGE value="consumo dos medidores atualizado" />
+    <option name="LAST_COMMIT_MESSAGE" value="consumo dos medidores atualizado" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -1001,25 +1030,31 @@
     <entry file="file://$PROJECT_DIR$/dashboard/js/datatables.js" />
     <entry file="file://$PROJECT_DIR$/dashboard/index.html" />
     <entry file="file://$PROJECT_DIR$/dashboard/tables.html" />
-    <entry file="file://$PROJECT_DIR$/dashboard/charts.html" />
-    <entry file="file://$PROJECT_DIR$/dashboard/js/charts-medidores.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="253" column="12" lean-forward="true" selection-start-line="253" selection-start-column="12" selection-end-line="253" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/favicon.ico">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="43" />
+        <state relative-caret-position="110">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/charts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="184" column="72" selection-start-line="184" selection-start-column="64" selection-end-line="184" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/js/charts-medidores.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="116" column="48" selection-start-line="116" selection-start-column="48" selection-end-line="116" selection-end-column="48" />
         </state>
       </provider>
     </entry>

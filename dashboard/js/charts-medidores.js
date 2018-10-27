@@ -114,7 +114,7 @@ $(document).ready(function () {
                     },
                     scaleLabel: {
                         display: true,
-                        labelString: 'Energia(kWh)'
+                        labelString: 'Potência(W)'
                     }
                 }],
             },
