@@ -17,6 +17,18 @@ $(document).ready(function () {
 		}
 	});
 	
+	$.ajax({
+		type: "GET",
+		url: 'http://u643580869.hostingerapp.com/consumo/previsao',
+		success: function (data){
+			console.log(data);
+			alert("Previsão de gasto para hora atual: " + data.previsao_hora_atual.toFixed(2)+ "\n" +
+				  "Previsão de gasto para próxima hora: " + data.previsao_prox_hora.toFixed(2)
+			);
+		}
+	});
+	
+	
 	
 	
 	labels_consumo = [];
@@ -24,7 +36,7 @@ $(document).ready(function () {
 	
 	$.ajax({
 			type: "GET",
-			url: 'http://u643580869.hostingerapp.com/consumo/individual/1',
+			url: 'http://u643580869.hostingerapp.com/consumo/individual/2',
 			async:false,
 			success: function (data){
 				data.consulta.forEach(function (item){
@@ -40,8 +52,7 @@ $(document).ready(function () {
 		});
 	
 		
-	//pega consumo instataneo de cada medidor
-	//TIRAR DO TIMEOUT PQ SE NAO HOSTINGER DETECTA LOOP E BLOQUEIA REQ
+	
     
 	
     var ctx = document.getElementById("chart-line-consumo-diario");
@@ -62,20 +73,7 @@ $(document).ready(function () {
                 pointHitRadius: 20,
                 pointBorderWidth: 2,
                 data: data_consumo,
-            },{
-				label: "Real",
-                lineTension: 0.3,
-                backgroundColor: "rgba(2,117,216,0.2)",
-                borderColor: "rgba(2,117,216,1)",
-                pointRadius: 5,
-                pointBackgroundColor: "rgba(2,117,216,1)",
-                pointBorderColor: "rgba(255,255,255,0.8)",
-                pointHoverRadius: 5,
-                pointHoverBackgroundColor: "rgba(255,140,0,1)",
-                pointHitRadius: 20,
-                pointBorderWidth: 2,
-                data: data_consumo,
-			}
+            }
             ],
 			
 			
