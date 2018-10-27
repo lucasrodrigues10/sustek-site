@@ -8,22 +8,24 @@ $(document).ready(function () {
         alert('oi');
     });
 	//previsao do gasto
-	$.ajax({
-		type: "GET",
-		url: 'http://u643580869.hostingerapp.com/gasto',
-		success: function (data){
-			console.log(data);
-			$("#consumo").text(data.gasto);
-		}
-	});
+	// $.ajax({
+		// type: "GET",
+		// url: 'http://u643580869.hostingerapp.com/gasto',
+		// success: function (data){
+			// console.log(data);
+			// $("#consumo").text(data.gasto);
+		// }
+	// });
 
 	$.ajax({
 		type: "GET",
 		url: 'http://u643580869.hostingerapp.com/consumo/previsao',
 		success: function (data){
 			console.log(data);
-			$("#previsao").text(data.previsao_prox_hora.toFixed(2));
-            $("#consumo").text('10.32');
+			previsao = data.previsao_prox_hora.toFixed(0);
+			prev_consumo = previsao*((0.21276+0.27087+0.05)/1000).toFixed(5);
+			$("#previsao").text(previsao);
+            $("#consumo").text(prev_consumo);
             console.log("Previsão de gasto para hora atual: " + data.previsao_hora_atual.toFixed(2)+ "\n" +
 				  "Previsão de gasto para próxima hora: " + data.previsao_prox_hora.toFixed(2)
 			);
